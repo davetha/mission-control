@@ -442,6 +442,11 @@ export class OpenClawClient extends EventEmitter {
     return this.call<OpenClawSessionInfo>('sessions.create', { channel, peer });
   }
 
+  // Agent methods
+  async listAgents(): Promise<unknown[]> {
+    return this.call<unknown[]>('agents.list');
+  }
+
   // Node methods (device capabilities)
   async listNodes(): Promise<unknown[]> {
     return this.call<unknown[]>('node.list');
