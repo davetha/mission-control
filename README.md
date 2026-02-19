@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-1.1.0-blue?style=flat-square" alt="Version" />
+  <img src="https://img.shields.io/badge/version-1.2.0-blue?style=flat-square" alt="Version" />
   <img src="https://img.shields.io/badge/Next.js-14-black?style=flat-square&logo=next.js" alt="Next.js" />
   <img src="https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/SQLite-3-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite" />
@@ -37,7 +37,11 @@
 
 🤖 **Agent System** — Auto-creates specialized agents, assigns tasks, tracks progress in real-time
 
+🔗 **Gateway Agent Discovery** — Import existing agents from your OpenClaw Gateway with one click — no need to recreate them
+
 🔌 **OpenClaw Integration** — WebSocket connection to [OpenClaw Gateway](https://github.com/openclaw/openclaw) for AI agent orchestration
+
+🐳 **Docker Ready** — Production-optimized Dockerfile and docker-compose for easy deployment
 
 🔒 **Security First** — Bearer token auth, HMAC webhooks, Zod validation, path traversal protection, security headers
 
@@ -416,6 +420,36 @@ Mission Control is built by a growing community. Thank you to everyone who has c
         <sub><b>Z8Medina</b></sub>
       </a><br />
       <sub>Metabase Integration</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/markphelps">
+        <img src="https://github.com/markphelps.png?size=80" width="80" height="80" style="border-radius:50%" alt="Mark Phelps" /><br />
+        <sub><b>Mark Phelps</b></sub>
+      </a><br />
+      <sub>Gateway Agent Discovery 💡</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/muneale">
+        <img src="https://github.com/muneale.png?size=80" width="80" height="80" style="border-radius:50%" alt="Alessio" /><br />
+        <sub><b>Alessio</b></sub>
+      </a><br />
+      <sub>Docker Support</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/JamesTsetsekas">
+        <img src="https://github.com/JamesTsetsekas.png?size=80" width="80" height="80" style="border-radius:50%" alt="James Tsetsekas" /><br />
+        <sub><b>James Tsetsekas</b></sub>
+      </a><br />
+      <sub>Planning Flow Fixes</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/nice-and-precise">
+        <img src="https://github.com/nice-and-precise.png?size=80" width="80" height="80" style="border-radius:50%" alt="nice-and-precise" /><br />
+        <sub><b>nice-and-precise</b></sub>
+      </a><br />
+      <sub>Agent Protocol Docs</sub>
     </td>
   </tr>
 </table>
